@@ -7,6 +7,7 @@ const multidevURL = process.env.MULTIDEV_SITE_URL.replace(/\/$/, "");
 const pathsToTest = {
     'Homepage': '/',
     'Hello World': '/hello-world/',
+    'User login': '/user/login/',
 }
 
 let scenariosToTest = [];
